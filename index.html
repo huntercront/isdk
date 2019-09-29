@@ -14,7 +14,38 @@
 
 <body>
 	<!-- Large modal -->
+	<div class="progress-container">
+			<div class="progress-bar" id="myBar"></div>
+		  </div>
+<header class="header">
 
+	<div class="container-fluid container-nav">
+		<div class="navigation">
+			<div class="logo-container">
+				<a href="#up" data-anchor="true" class="logo">
+					<img src="./img/logo/isdk.svg" alt="">
+				</a>
+			</div>
+			<div class="mobile--icon " id="nav-icon">
+					<div class="line--1"></div>
+					<div class="line--2"></div>
+					<div class="line--3"></div>
+				  </div>
+				<nav class="mail-navigation">
+					<ul class="navigation--list">
+						<li><a href="#Special-offer" data-anchor="true">Special offer</a></li>
+						<li><a href="#Pain-points" data-anchor="true">Your pains</a></li>
+						<li><a href="#About-us" data-anchor="true">About us</a></li>
+						<li><a href="#Services" data-anchor="true">Services</a></li>
+						<li><a href="#Technology" data-anchor="true">Technology</a></li>
+						<li><a href="#Portfolio" data-anchor="true">Portfolio</a></li>
+						<li><a href="#Contacts" data-anchor="true">Contacts</a></li>
+						<li class="nav-social--list"><a href="https://www.linkedin.com/company/isdk/"><div class="nav-social"><img src="./img/icons/linkedin.svg" alt=""></div></a></li>
+					</ul>	
+				</nav>
+			</div>
+	</header>
+	</div>
 
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
@@ -22,45 +53,42 @@
 	<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 			<div class="modal-content">
 			  <div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+				<h5 class="modal-title" id="modal-tiitle"></h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				  <span aria-hidden="true">&times;</span>
 				</button>
 			  </div>
 			  <div class="modal-body">
-				...
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<img id="modal--img" src="" alt="">
+				  <div id="modal--content" class="modal--content">
+					  
+				  </div>
 			  </div>
 			</div>
 		  </div>
 </div>
-	<section class="hero">
+	<section class="hero" id="up">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-6 col-12">
 					<p class="hero--slogan">Trust us because we believe in you</p>
 					<h1 class="hero--title">IT solutions for startups</h1>
-					<p class="hero--descr">Dumping price for 10 first startups
-						Let's be honest! You need cheap price to create your product, we need US cases for portfolio.
-					</p>
-					<a href="#modal" class="hero--cta">Get Started</a>
+
 				</div>
 				<div class="col-md-6 col-12">
 					<div class="clip-masc">
 							<svg viewBox="0 0 1390 1451" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<g>
-								<path d="M274.673 337.116C339.702 463.885 358.807 530.32 360.231 547.692C372.772 694.528 305.294 756.455 242.554 829.495C179.814 902.536 -47.4648 911.679 18.099 1121.78C70.55 1289.87 310.455 1329.24 423.851 1327.91C455.371 1334.49 569.36 1329.24 773.153 1255.63C976.945 1182.01 1136.64 977.787 1191.01 884.876C1238.13 802.465 1350.8 616.73 1305 438C1247.75 214.588 1101.62 116.054 886.233 44.9557C670.85 -26.143 475.887 54.7821 438.638 64.9066C401.389 75.0311 193.387 178.655 274.673 337.116Z" fill="#FF5600" fill-opacity="0.2"/>
-								<path d="M97 442.5C94.4508 431.705 89.5 427.5 82.5003 428C75.5005 428.5 70.3064 437.422 72.3023 441C74.9177 445.688 80.2389 442.74 79.4992 452C78.903 459.463 82.5003 470.5 91.5 466C99.636 461.932 98.9058 450.571 97 442.5Z" stroke="#FF5600" stroke-width="5"/>
+								<path d="M274.673 337.116C339.702 463.885 358.807 530.32 360.231 547.692C372.772 694.528 305.294 756.455 242.554 829.495C179.814 902.536 -47.4648 911.679 18.099 1121.78C70.55 1289.87 310.455 1329.24 423.851 1327.91C455.371 1334.49 569.36 1329.24 773.153 1255.63C976.945 1182.01 1136.64 977.787 1191.01 884.876C1238.13 802.465 1350.8 616.73 1305 438C1247.75 214.588 1101.62 116.054 886.233 44.9557C670.85 -26.143 475.887 54.7821 438.638 64.9066C401.389 75.0311 193.387 178.655 274.673 337.116Z" fill="#ffffff" fill-opacity="0.2"/>
+								<path d="M97 442.5C94.4508 431.705 89.5 427.5 82.5003 428C75.5005 428.5 70.3064 437.422 72.3023 441C74.9177 445.688 80.2389 442.74 79.4992 452C78.903 459.463 82.5003 470.5 91.5 466C99.636 461.932 98.9058 450.571 97 442.5Z" stroke="#ffffff" stroke-width="5"/>
 								<clipPath id="clip--svg">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M341.933 670.529C340.099 653.196 319.433 587.229 251.433 462.029C166.433 305.529 308.886 188.197 341.933 168.25C414 124.75 624 84.987 855.933 155.529C1072.93 221.529 1215.5 299.25 1278 521.25C1328 698.85 1225.6 904.529 1180.43 988.029C1128.27 1082.2 973.433 1290.13 771.433 1368.53C569.433 1446.93 455.6 1454.86 423.933 1449.03C310.6 1453.03 69.8331 1419.33 13.4331 1252.53C-36.2446 1105.61 61.7953 1055.02 145.384 1011.88C180.42 993.802 212.917 977.033 230.933 955.029C236.162 948.644 241.427 942.339 246.674 936.056C302.644 869.034 356.561 804.472 341.933 670.529ZM120.669 512.25C175.187 512.25 252.269 562.135 274.669 657.735C297.494 755.146 270.511 841.62 199.649 911.25C173.051 937.386 120.669 966.235 120.669 966.235C97.0026 980.402 63.924 976.474 42.5002 954.75C13.2494 925.089 33.5375 887.839 56.5796 845.533C72.7688 815.808 90.3174 783.588 92.9997 749.75C98.4825 680.582 85.8096 659.452 67.9161 629.616C64.5965 624.081 61.0971 618.247 57.5007 611.75C39.9628 580.069 66.1511 512.25 120.669 512.25Z" fill="#C4C4C4"/>
 							</clipPath>
 								
 									<image clip-path="url(#clip--svg)" height="100%" width="100%" xlink:href="./img/hero.jpg" />
 								</g>
-								<path d="M1081 156C1213.5 209.333 1535 384.5 1301.5 1000" stroke="#FF5600" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M1002.15 143.757L1014.63 149.176L1019.14 168.083L1038.75 176.598L1044.94 162.335C1048.88 164.046 1053.46 162.239 1055.17 158.301L1058.26 151.169L1061.83 152.718L1064.93 145.586L1061.36 144.038L1064.46 136.907C1066.17 132.969 1064.36 128.39 1060.42 126.679L1066.62 112.416L1047 103.901L1030.11 113.52L1017.63 108.101C1006.38 103.214 989.712 104.086 984.934 115.091C980.155 126.097 990.899 138.871 1002.15 143.757ZM1054.23 140.942L1057.33 133.81L1014.54 115.232C1006.72 111.837 994.546 112.474 992.065 118.187C989.584 123.901 997.43 133.231 1005.25 136.625L1048.04 155.204L1051.13 148.073L1029.74 138.784L1032.84 131.652L1054.23 140.942ZM1025.8 162.5L1023.55 153.046L1037.81 159.239L1034.71 166.37L1025.8 162.5ZM1053.29 123.583L1039.03 117.39L1047.47 112.581L1056.39 116.451L1053.29 123.583ZM1020.59 130.573C1018.88 134.512 1014.3 136.318 1010.36 134.608C1006.42 132.898 1004.62 128.319 1006.33 124.381C1008.04 120.442 1012.62 118.636 1016.56 120.346C1020.49 122.056 1022.3 126.635 1020.59 130.573Z" fill="#FF5600"/>
+								<path d="M1081 156C1213.5 209.333 1535 384.5 1301.5 1000" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1002.15 143.757L1014.63 149.176L1019.14 168.083L1038.75 176.598L1044.94 162.335C1048.88 164.046 1053.46 162.239 1055.17 158.301L1058.26 151.169L1061.83 152.718L1064.93 145.586L1061.36 144.038L1064.46 136.907C1066.17 132.969 1064.36 128.39 1060.42 126.679L1066.62 112.416L1047 103.901L1030.11 113.52L1017.63 108.101C1006.38 103.214 989.712 104.086 984.934 115.091C980.155 126.097 990.899 138.871 1002.15 143.757ZM1054.23 140.942L1057.33 133.81L1014.54 115.232C1006.72 111.837 994.546 112.474 992.065 118.187C989.584 123.901 997.43 133.231 1005.25 136.625L1048.04 155.204L1051.13 148.073L1029.74 138.784L1032.84 131.652L1054.23 140.942ZM1025.8 162.5L1023.55 153.046L1037.81 159.239L1034.71 166.37L1025.8 162.5ZM1053.29 123.583L1039.03 117.39L1047.47 112.581L1056.39 116.451L1053.29 123.583ZM1020.59 130.573C1018.88 134.512 1014.3 136.318 1010.36 134.608C1006.42 132.898 1004.62 128.319 1006.33 124.381C1008.04 120.442 1012.62 118.636 1016.56 120.346C1020.49 122.056 1022.3 126.635 1020.59 130.573Z" fill="#ffffff"/>
 								<circle cx="1310" cy="1098" r="24" stroke="#FF5600" stroke-width="5"/>
 								<circle cx="1230" cy="1118" r="17" stroke="#FF5600" stroke-width="5"/>
 								<circle cx="1242.5" cy="1037.5" r="12" stroke="#FF5600" stroke-width="5"/>
@@ -75,7 +103,20 @@
 	<section class="offer">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="offset-lg-1 col-md-6 col-lg-4 col-12 ">
+
+				<div class="col-lg-8 col-md-6 col-12 offer--text">
+					<div class="after--stitle offer--after--t" id="Special-offer"><span>Special offer</span></div>
+					<h2 class="section--title offer-tittle">Dumping price for 10 first startups</h2>
+					<div class="offer-steps">
+						<p class="offer--descr">
+							Let's be honest! You need cheap price to create your product, we need US cases for portfolio.
+						</p>
+						<a href="#modal" class="hero--cta prime--cta">Request trial hours</a>
+
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 col-12">
 					<article class="card a-wave">
 						<div class="card--img">
 							<img src="./img/icons/flame.svg" alt="">
@@ -88,496 +129,545 @@
 					</article>
 
 				</div>
-				<div class="col-lg-5 col-md-6 col-12 offer--text">
-					<div class="after--stitle offer--after--t"><span>Steps</span> </div>
-					<h2 class="section--title offer-tittle">Empowering startups At Every Stage</h2>
-					<div class="offer-steps">
-						<ol class="offer--step-l">
-							<li class="offer--step">Requirement development and mockups</li>
-							<li class="offer--step">Choice of right technology stack</li>
-							<li class="offer--step">Solution and design and project planning</li>
-							<li class="offer--step">Solid well-coordinated team</li>
-							<li class="offer--step">Strict deadlines</li>
-						</ol>
+			</div>
+		</div>
+	</section>
+	<section class="steps">
+		<div class="container">
+				<div class="after--stitle"><span>Steps</span></div>
+			<h2 class="section--title">Empowering startups at every stage</h2>
+			<div class="row steps-row">
+				<div class="col-12 col-lg-4">
+					<div class="steps--wrapper line--before">
+						<div class="step-t-wr">
+						<div class="steps--img">
+							<span class="steps--step">
+								01
+							</span>
+						</div>
+						<h4 class="steps--title">
+								Seed stage: MVP creating  & acceleration
+						</h4>
+					</div>
+						<div class="steps--descr">
+							<p>Requirement development and mockups</p>
+						</div>
+						<div class="steps--descr">
 
+								<p>Choice of right technology stack</p>
+							</div>
+							<div class="steps--descr">
+	
+									<p>UI/UX design</p>
+								</div>
 					</div>
 				</div>
+				<div class="col-12 col-lg-4">
+					<div class="steps--wrapper">
+							<div class="step-t-wr">
+						<div class="steps--img line--center">
+							<span class="steps--step">
+								02
+							</span>
+						</div>
+						<h4 class="steps--title">
+								Growth Stage
+						</h4>
+					</div>
+						<div class="steps--descr">
+							<p>Solution design</p>
+						</div>
+						<div class="steps--descr">
+
+								<p>Well-coordinated team</p>
+							</div>
+							<div class="steps--descr">
+	
+									<p>Re-engineering</p>
+								</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="steps--wrapper line--after">
+						<div class="step-t-wr">
+						<div class="steps--img">
+							<span class="steps--step">
+							03
+							</span>
+						</div>
+						<h4 class="steps--title">
+								Expansion Stage
+						</h4>
+					</div>
+						<div class="steps--descr">
+							<p>DevOps</p>
+						</div>
+						<div class="steps--descr">
+
+								<p>Solution scaling</p>
+							</div>
+							<div class="steps--descr">
+	
+									<p>IT scaling</p>
+								</div>
+					</div>
+				</div>
+				<div class="col-12 cta-centured"><a href="#modal" class="hero--cta prime--cta">Tell me more</a></div>
 			</div>
 		</div>
 	</section>
 	<section class="pains">
 		<div class="container">
-			<div class="after--stitle"><span>Startups’ pains</span> </div>
+			<div class="after--stitle" id="Pain-points"><span>Pain points</span> </div>
 			<h2 class="section--title">Startups’ pain points and ISDK offers (responses?)</h2>
-			<div class="row justify-content-center pains-row">
-				<div class="col-12 col-md-10">
-					<div class="pains-header fl-al-center">
-						<div class="pains-header--img">
-							<img src="./img/icons/finance.svg" alt="">
-						</div>
-						<h3 class="pains--title">Finance</h3>
-					</div>
-					<div class="row descr-points">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="pain-point">
+						<div class="pain-header">
+							<div class="pain-icon">
+								<img src="./img/icons/finance.svg" alt="">
 
-						<div class="col-12 col-md-6">
-							<div class="pains-container">
-								<div class="pains-img">
+							</div>
+							
+								
+							<h4 class="pains--title">Finance</h4>
+							
+						</div>
+						<div class="pain-body">
+							<div class="pain-question">
+								<div class="p-q-img">
 									<img src="./img/icons/quote.svg" alt="">
 								</div>
-								<div class="pains-text">
-									<p class="pains--descr">High cost of IT development and creeping budgets</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6">
-							<div class="pains-container">
-								<div class="pains-img">
+								<p class="p-q-descr">High cost of IT development and creeping budgets</p>
+							</div>	
+							<div class="pains-offer">
+								<div class="p-o-img">
 									<img src="./img/icons/result.svg" alt="">
 								</div>
-								<div class="pains-text">
-									<p class="pains--descr">Special flat-rate $58 or Fixed price for a project
-										First 100 hours of discount to test our service
-										Forward budget estimate
-										No overheads and sneaky costs
-										Regular progress and budget review
+								<p class="p-o-descr">
+										Special flat-rate $58 or Fixed price for a project
+								</p>
+							</div>
+							<div class="pains-offer">
+									<div class="p-o-img">
+										<img src="./img/icons/result.svg" alt="">
+									</div>
+									<p class="p-o-descr">
+											First 100 hours of discount to test our service
 									</p>
 								</div>
-							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+				<div class="col-12 col-md-6">
+					<div class="pain-point">
+						<div class="pain-header">
+							<div class="pain-icon">
+								<img src="./img/icons/operation.svg" alt="">
 
-			<div class="row justify-content-center pains-row">
-				<div class="col-12 col-md-10">
-					<div class="pains-header fl-al-center">
-						<div class="pains-header--img">
-							<img src="./img/icons/operation.svg" alt="">
+							</div>
+							
+								
+							<h4 class="pains--title">Operation</h4>
+							
 						</div>
-						<h3 class="pains--title">Operation</h3>
-					</div>
-					<div class="row descr-points">
-
-						<div class="col-12 col-md-6">
-							<div class="pains-container">
-								<div class="pains-img">
+						<div class="pain-body">
+							<div class="pain-question">
+								<div class="p-q-img">
 									<img src="./img/icons/quote.svg" alt="">
 								</div>
-								<div class="pains-text">
-									<p class="pains--descr">Too fast hiring and adaptation. Overwhelmed with large team
-										management and lack of control</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6">
-							<div class="pains-container">
-								<div class="pains-img">
+								<p class="p-q-descr">Too fast hiring and adaptation. Overwhelmed with large team management and lack of control</p>
+							</div>	
+							<div class="pains-offer">
+								<div class="p-o-img">
 									<img src="./img/icons/result.svg" alt="">
 								</div>
-								<div class="pains-text">
-									<p class="pains--descr">Task definition and tracking in JIRA-Confluence and DevOps
-										Holistic development with proper branch management and common code-repo
-										Continuous integration and deployment
+								<p class="p-o-descr">
+									Task definition and tracking in JIRA-Confluence and DevOps. 
+								</p>
+							</div>
+							<div class="pains-offer">
+									<div class="p-o-img">
+										<img src="./img/icons/result.svg" alt="">
+									</div>
+									<p class="p-o-descr">
+											Holistic development with proper branch management and common code-repo 
 									</p>
 								</div>
-							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+				<div class="col-12 col-md-6">
+					<div class="pain-point">
+						<div class="pain-header">
+							<div class="pain-icon">
+								<img src="./img/icons/technology.svg" alt="">
 
-			<div class="row justify-content-center pains-row">
-				<div class="col-12 col-md-10">
-					<div class="pains-header fl-al-center">
-						<div class="pains-header--img">
-							<img src="./img/icons/technology.svg" alt="">
+							</div>
+							
+								
+							<h4 class="pains--title">Technology</h4>
+							
 						</div>
-						<h3 class="pains--title">Technology</h3>
-					</div>
-					<div class="row descr-points">
-
-						<div class="col-12 col-md-6">
-							<div class="pains-container">
-								<div class="pains-img">
+						<div class="pain-body">
+							<div class="pain-question">
+								<div class="p-q-img">
 									<img src="./img/icons/quote.svg" alt="">
 								</div>
-								<div class="pains-text">
-									<p class="pains--descr">You need to develop your product not IT</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6">
-							<div class="pains-container">
-								<div class="pains-img">
+								<p class="p-q-descr">You need to develop your product not IT</p>
+							</div>	
+							<div class="pains-offer">
+								<div class="p-o-img">
 									<img src="./img/icons/result.svg" alt="">
 								</div>
-								<div class="pains-text">
-									<p class="pains--descr">Outline your concept and scope and leave the technology
-										stack on us. Our team helps to develop requirements and elect the cutting-edge
-										technology and solution design fitting your needs.
+								<p class="p-o-descr">
+										Outline your concept and scope and leave the technology stack on us. 
+								</p>
+							</div>
+							<div class="pains-offer">
+									<div class="p-o-img">
+										<img src="./img/icons/result.svg" alt="">
+									</div>
+									<p class="p-o-descr">
+											Develop the requirements and select the technology stack and solution design fitting your needs.
 									</p>
 								</div>
-							</div>
 						</div>
 					</div>
 				</div>
+				<div class="col-12 col-md-6">
+					<div class="pain-point">
+						<div class="pain-header">
+							<div class="pain-icon">
+								<img src="./img/icons/team.svg" alt="">
+
+							</div>
+							
+								
+							<h4 class="pains--title">Team</h4>
+							
+						</div>
+						<div class="pain-body">
+							<div class="pain-question">
+								<div class="p-q-img">
+									<img src="./img/icons/quote.svg" alt="">
+								</div>
+								<p class="p-q-descr">Short-term developers call and Bad Onboarding Process</p>
+							</div>	
+							<div class="pains-offer">
+								<div class="p-o-img">
+									<img src="./img/icons/result.svg" alt="">
+								</div>
+								<p class="p-o-descr">
+										Well-coordinated team for turn-key project or task unit. 
+
+								</p>
+							</div>
+							<div class="pains-offer">
+									<div class="p-o-img">
+										<img src="./img/icons/result.svg" alt="">
+									</div>
+									<p class="p-o-descr">
+											Certified sr.developers, UI-designers, QA-engineers will be.
+	
+									</p>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 cta-centured"><a href="#modal" class="hero--cta prime--cta">Get in touch</a></div>
 			</div>
+
 
 
 		</div>
 	</section>
+
+	<section class="about n-o">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6 col-lg-5 js-tilt order-2 order-md-1 ">
+						<div class="row align-items-end">
+							<div class="col-6 about--up--col">
+									<div class="about-card about-i-card">
+									
+											<div class="about-card--img">
+												<img src="./img/logo/microsoft-partner.svg" alt="">
+											</div>
+										</div>
+								<div class="about-card a-wave">
+									<div class="card--number">
+										<span>5</span>
+									</div>
+									<div class="about-card--descr">branch offices around the world</div>
+								</div>
+								<div class="about-card about-i-card">
+										<div class="about-card--img ">
+											<img src="./img/logo/nopCommerce.svg" alt="">
+										</div>
+									</div>
+	
+	
+							</div>
+							<div class="col-6">
+									<div class="about-card a-wave">
+											<div class="card--number">
+												<span>2000+</span>
+											</div>
+											<div class="about-card--descr"> man-years Expertise</div>
+										</div>
+	
+								<div class="about-card a-wave">
+										<div class="card--number">
+											<span>97%</span>
+										</div>
+										<div class="about-card--descr">client retention</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 offset-lg-1 order-1 order-md-2">
+							<div class="after--stitle offer--after--t" id="About-us"><span>About us</span></div>
+						<h2 class="section--title offer-tittle">Why ISDK</h2>
+						<p class="about--descr">
+								ISDK is a team of 30+ professionals specializing in custom development and e-commerce. We work with transnational corporations and local companies from Russia, Eastern Europe, Israel - ? Due to our business and technology expertise we’ve created own ecommerce omnichannel solution - ISDK.Omni. Right now we are collecting US portfolio. So we are ready to share our experience with 10 startups for a special price. You will get driving to go to the next stage. We will get great case study. 
+						</p>
+						<a href="#modal" class="hero--cta prime--cta">Tell me more</a>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
 	<section class="services">
 		<div class="container ">
-				<div class="after--stitle"><span>Services</span> </div>
+				<div class="after--stitle" id="Services"><span>Services</span> </div>
 				<h2 class="section--title">Our services</h2>
-			<div class="row align-items-center ">
-			<div class="col-12 col-md-6 col-lg-4 filters" data-filter=".omni">
-				<div class="srvice-sort js-tilt">
-					<h4 class="service-sort--tiitle">
-							eCommerce & Omnichannel solution
-					</h4>
-				</div></div>
-			<div class="col-12 col-md-6 col-lg-4 filters"  data-filter=".develop">
-				<div class="srvice-sort js-tilt">
-					<h4 class="service-sort--tiitle">
-							Custom Application and Product Development
-					</h4>
-			</div></div>
-			<div class="col-12 col-md-6 col-lg-4 filters" data-filter=".mobile">
-				<div class="srvice-sort js-tilt">
-					<h4 class="service-sort--tiitle">
-							Mobile app Development
-					</h4>
-			</div></div>
-			<div class="col-12 col-md-6 col-lg-4 filters" data-filter=".consulting">
-				<div class="srvice-sort js-tilt">
-					<h4 class="service-sort--tiitle">
-							Consulting
-					</h4>
-			</div></div>
-			<div class="col-12 col-md-6 col-lg-4 filters" data-filter=".menegment">
-				<div class="srvice-sort js-tilt">
-					<h4 class="service-sort--tiitle">
-							Management Tools
-					</h4>
-				</div></div>
-			<div class="col-12 col-md-6 col-lg-4 filters" data-filter=".all">
-				<div class="srvice-sort js-tilt">
-					<h4 class="service-sort--tiitle">
-							All services
-					</h4>
-				</div>
-			</div>
-				</div>
+				<div class="row service-big align-items-center">
 
-				<div class="col-12 col-md-12">
-					<div class="more-sevice row align-items-stretch grid">
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/online-shop.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Online store design and migration</h4>
-									<p class="service--content--descr">Online store design and migration</p>
-								</div>
+					<div class="col-12 col-md-6 col-lg-7">
+						<div class="service--text">
+							<div class="imni-logo">
+								<img src="./img/logo/isdk-omni.svg" alt="">
 							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/mobile.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Mobile</h4>
-									<p class="service--content--descr">Platform-agnostic Xamarin and Native development
-									</p>
-								</div>
+							<h4 class="service--tittle">eCommerce & Omnichannel solution</h4>
+							<div class="service--list">
+								<p class="s-list">Online store design and migration</p>
+								<p class="s-list">Mobile</p>
+								<p class="s-list">Chatbots</p>
+								<p class="s-list">Self-service kiosk</p>
+								<p class="s-list">Marketplace integration</p>
+								<p class="s-list">Social shopping</p>
+								<p class="s-list">CRM</p>
+								<p class="s-list">Digital-marketing and retargeting</p>
+								<p class="s-list">Stocks integration</p>
+								<p class="s-list">ERP integration</p>
 							</div>
-						</div>
-
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/chatbots.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Chatbots</h4>
-									<p class="service--content--descr">Telegram, Facebook Messenger</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/finance.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Self-service kiosk</h4>
-									<p class="service--content--descr">Single page applications, Angular, JSON</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/markplace.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Marketplace integration</h4>
-									<p class="service--content--descr">Google and Amazon</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/social.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Social shopping</h4>
-									<p class="service--content--descr">Facebook and Instagram</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/Marketing.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">Digital-marketing and retargeting</h4>
-										<p class="service--content--descr">MailChimp, Criteo, Google and Facebook</p>
-									</div>
-								</div>
-							</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/crm.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">CRM</h4>
-									<p class="service--content--descr">Dynamics 365 CRM</p>
-								</div>
-							</div>
-						</div>
-
-
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/finance.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Stocks integration</h4>
-									<p class="service--content--descr">Dynamics, Oracle, SAP</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all omni">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/erp.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">ERP integration</h4>
-										<p class="service--content--descr">Dynamics, Oracle, SAP</p>
-									</div>
-								</div>
-							</div>
-
-
-				<!-- eCommerce&Omnichannel solution -->
-
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all develop">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/online-shop.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Back-end development</h4>
-									<p class="service--content--descr">.NET Framework / .NET CORE</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all develop">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/erp.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">Front-end development</h4>
-										<p class="service--content--descr">Angular, Bootstrap, CSS3, and HTML 5</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-12 col-md-6 col-lg-4 service-item all develop">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/erp.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">UI design</h4>
-										<p class="service--content--descr">Figma, Axure, Adobe XD, Invision</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-12 col-md-6 col-lg-4 service-item all develop">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/erp.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">Q&A</h4>
-										<p class="service--content--descr">Selenium, Jmeter</p>
-									</div>
-								</div>
-							</div>							
-
-
-<!-- Custom Application and Product Development -->
-
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/online-shop.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Technology/platform choice</h4>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/erp.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">Solution design</h4>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-12 col-md-6 col-lg-4 service-item all">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/erp.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">Re-engineering</h4>
-									</div>
-								</div>
-							</div>				
-
-				<!-- Consulting -->
-
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all consulting">
-							<div class="service--content">
-								<div class="service--content--img">
-									<img src="./img/icons/online-shop.svg" alt="">
-								</div>
-								<div class="service--content--text">
-									<h4 class="service--title">Requirements Development</h4>
-									<p class="service--content--descr">DevOps & Confluence</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-6 col-lg-4 service-item all consulting">
-								<div class="service--content">
-									<div class="service--content--img">
-										<img src="./img/icons/erp.svg" alt="">
-									</div>
-									<div class="service--content--text">
-										<h4 class="service--title">Task track and control</h4>
-										<p class="service--content--descr">DevOps & JIRA</p>
-									</div>
-								</div>
-							</div>		
-
-<!-- Management Tools -->
-
-
-			</div>
-
-		</div>
-
-	</section>
-
-
-
-	<section class="about">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-12 col-md-6 col-lg-5">
-					<div class="row align-items-end">
-						<div class="col-6 about--up--col">
-
-							<div class="about-card a-wave">
-								<div class="card--number">
-									<span>5</span>
-								</div>
-								<div class="about-card--descr">branch offices around the world</div>
-							</div>
-							<div class="about-card about-i-card">
-									<div class="about-card--img ">
-										<img src="./img/logo/nopCommerce.svg" alt="">
-									</div>
-								</div>
-						
-
-						</div>
-						<div class="col-6">
-							<div class="about-card about-i-card">
-								<div class="about-card--img">
-									<img src="./img/logo/microsoft-partner.svg" alt="">
-								</div>
-							</div>
-							<div class="about-card a-wave">
-									<div class="card--number">
-										<span>97%</span>
-									</div>
-									<div class="about-card--descr">client retention</div>
-								</div>
 						</div>
 					</div>
+					<div class="col-12 col-md-6 col-lg-5">
+							<div class="service--img ">
+	<img src="./img/ecomerce.svg" alt="">
+										
+							</div>
+						</div>
 				</div>
-				<div class="col-12 col-md-6 offset-lg-1">
-						<div class="after--stitle offer--after--t"><span>About</span></div>
-					<h2 class="section--title offer-tittle">Why ISDK</h2>
-					<p class="about--descr">
-							ISDK is a team of 30+ professionals specializing in custom development and e-commerce. We work with transnational corporations and local companies from Russia, Eastern Europe, Israel - ? Due to our business and technology expertise we’ve created own ecommerce omnichannel solution - ISDK.Omni. Right now we are collecting US portfolio. So we are ready to share our experience with 10 startups for a special price. You will get driving to go to the next stage. We will get great case study. 
-					</p>
+				<div class="row service-small align-items-start">
+					
+						<div class="col-12 col-md-6 col-lg-4 service">
+								<div class="service--img ">
+										<img src="./img/development-2.svg" alt="">
+											
+								</div>
+								<div class="service--text">
+									<h4 class="service--tittle">Custom Product and Application Development</h4>
+									<div class="service--list">
+										<p class="s-list">Back-end development</p>
+										<p class="s-list">Front-end development</p>
+										<p class="s-list">UI design</p>
+										<p class="s-list">Q&A</p>
+										<p class="s-list">Mobile app Development</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-4 service">
+									<div class="service--img ">
+											<img src="./img/consulting-2.svg" alt="">
+												
+									</div>
+									<div class="service--text">
+										<h4 class="service--tittle">Consulting</h4>
+										<div class="service--list">
+											<p class="s-list">Technology / platform choice</p>
+											<p class="s-list">Solution design</p>
+											<p class="s-list">Re-engineering</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-4 service">
+										<div class="service--img ">
+												<img src="./img/management-2.svg" alt="">
+													
+										</div>
+										<div class="service--text">
+												<h4 class="service--tittle">Management Tools</h4>
+												<div class="service--list">
+													<p class="s-list">Requirements Development</p>
+													<p class="s-list">Task track and control</p>
+											</div>
+										</div>
+									</div>
+
+					</div>
+					<div class="cta-centured"><a href="#modal" class="hero--cta prime--cta">Request trial hours</a></div>
+
+		</div>
+
+	</section>
+<section class="technology">
+	<div class="container">
+			<div class="after--stitle" id="Technology"><span>Technology</span></div>
+				<h2 class="section--title">Our technology stack</h2>
+				<div class="tabs-wrapper">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+								<li class="nav-item">
+									
+									<a class="nav-link active" id="home-tab" data-toggle="tab" href="#omni" role="tab" aria-controls="omni" aria-selected="true">Omnichannel solution</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="Development-tab" data-toggle="tab" href="#Development" role="tab" aria-controls="Development" aria-selected="false">Development
+										</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="Management-tab" data-toggle="tab" href="#Management" role="tab" aria-controls="Management" aria-selected="false">Management Tools</a>
+								</li>
+							</ul>
+						</div>
+		<div class="row">
+			
+			<div class="col-12">
+					<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active" id="omni" role="tabpanel" aria-labelledby="omni-tab">
+				<div class="tech-wrapper">
+					<div class="tech-img">
+						<img src="./img/technology/d-365.svg" alt="">
+					</div>
+					<div class="tech-img">
+						<img src="./img/technology/azure.svg" alt="">
+					</div>
+					
+					<div class="tech-img">
+						<img src="./img/technology/sharepoint.svg" alt="">
+					</div>
+					<div class="tech-img">
+						<img src="./img/technology//nopcommerce.svg" alt="">
+					</div>
+					<div class="tech-img">
+						<img src="./img/technology/aspnet.svg" alt="">
+					</div>
+					<div class="tech-img">
+						<img src="./img/technology/xamarin.svg" alt="">
+					</div>
+					<div class="tech-img">
+							<img src="./img/technology/Oracle_logo.svg" alt="">
+						</div>
+					<div class="tech-img">
+						<img src="./img/technology/whatsap.svg" alt="">
+					</div>
+					<div class="tech-img">
+						<img src="./img/technology/facebook.svg" alt="">
+					</div>
+					<div class="tech-img">
+						<img src="./img/technology/telegram.svg" alt="">
+					</div>
+					<div class="tech-img">
+							<img src="./img/technology/mailchimp-freddie-icon.svg" alt="">
+						</div>
+
+
 				</div>
 			</div>
+			<div class="tab-pane fade" id="Development" role="tabpanel" aria-labelledby="Development-tab">
+					<div class="tech-wrapper">
+					<div class="tech-img">
+							<img src="./img/technology/angular.svg" alt="">
+						</div>
+						<div class="tech-img">
+							<img src="./img/technology/android.svg" alt="">
+						</div>
+						<div class="tech-img">
+							<img src="./img/technology/apple.svg" alt="">
+						</div>
+						<div class="tech-img">
+								<img src="./img/technology/invision.svg" alt="">
+							</div>
+							<div class="tech-img">
+								<img src="./img/technology/sketch.svg" alt="">
+							</div>
+							<div class="tech-img">
+								<img src="./img/technology/adobe-xd.svg" alt="">
+							</div>
+							<div class="tech-img">
+								<img src="./img/technology/ps.svg" alt="">
+							</div>
+							<div class="tech-img">
+									<img src="./img/technology/figma.svg" alt="">
+								</div>
+								<div class="tech-img">
+										<img src="./img/technology/bootstrap-4.svg" alt="">
+									</div>
+									<div class="tech-img">
+											<img src="./img/technology/javascript.svg" alt="">
+										</div>
+										<div class="tech-img">
+												<img src="./img/technology/css-3.svg" alt="">
+											</div>
+											<div class="tech-img">
+													<img src="./img/technology/html5.svg" alt="">
+												</div>
+												<div class="tech-img">
+														<img src="./img/technology/Selenium.svg" alt="">
+													</div>
+													<div class="tech-img">
+															<img src="./img/technology/jmeter.svg" alt="">
+														</div>
+			</div>
 		</div>
-	</section>
+			<div class="tab-pane fade" id="Management" role="tabpanel" aria-labelledby="Management-tab">
+					<div class="tech-wrapper">
+					<div class="tech-img">
+							<img src="./img/technology/jira-logo.svg" alt="">
+						</div>
+						<div class="tech-img">
+								<img src="./img/technology/confluence-vector-logo.svg" alt="">
+							</div>
+					</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		<div class="col-12 cta-centured"><a href="#modal" class="hero--cta prime--cta">Request trial hours</a></div>
+	</div>
+</section>
+
+
+
 	<section class="portfolio">
 		<div class="container">
-				<div class="after--stitle"><span>Cases</span> </div>
+				<div class="after--stitle" id="Portfolio"><span>Portfolio</span> </div>
 				<h2 class="section--title">Our portfolio</h2>
 			<div class="row align-items-stretch">
-				<div data-toggle="modal" data-target=".bd-example-modal-lg" class="portfolio-col col-sm-6 col-12 col-md-6 col-lg-4">
+				<div data-toggle="modal" data-target=".bd-example-modal-lg" class="portfolio-col col-sm-6 col-12 col-md-6 col-lg-4" data-content="
+				<p>Entering CIS and Baltic countries’ markets, the customer wanted to introduce a new strategy for market expansion, which proposed an intense use of modern e-Commerce tools. They wanted to create a system of sales channels that would include a single web-store for all new business regions, mobile applications for popular platforms (iOS и Android), and a network of automated self-service kiosks (touch screen terminals). All solution components were supposed to use a single data source as well as centralized content administration tools, and configuration settings pool. The planned online operations needed to be fully integrated with the existing offline business process of order processing and delivery.</p><p>The following tasks were completed within the project:</p><ul><li>design and development of an online-store;</li><li>design and development of mobile applications delivering full cart and order sync with the online-store;</li>
+					<li>integration of the e-commerce channel with the existing offline architecture of order processing, pricing, warehouse stock tracking etc.;</li>
+					<li>Filuet Group shipping widget embedding;</li>
+					<li>integration with payment systems, addition of new payment methods using online banking;</li>
+					<li>integration of e-commerce with vending channels (kiosks, automated sales stores);</li>
+					<li>implementation of chat bots for customer support.</li>
+				</ul>">
 					<div class="portfolio-card">
 						<div class="portfolio-img">
-							<img src="./img/herbalife.jpg" alt="">
+							<img class="port--image" src="./img/herbalife.jpg" alt="">
 						</div>
 						<div class="portfolio-text">
 							<div class="portfolio-c-logo">
@@ -590,13 +680,24 @@
 							<p class="portfolio-c--descr">
 								Multichannel eCommerce setup. Webstore, mobile app, chatbot, POS clients
 							</p>
+							<span class="read-more">Read more</span>
 						</div>
 					</div>
 				</div>
-				<div class="portfolio-col col-sm-6 col-12 col-md-6 col-lg-4">
+				<div data-toggle="modal" data-target=".bd-example-modal-lg" class="portfolio-col col-sm-6 col-12 col-md-6 col-lg-4" data-content="			
+					<p>Harman’s Russian regional office decided to improve their online store. Redesign and enhancements implementation along with scaling up Internet and CRM marketing tools were required. We work on the website consisted of the following main areas. Introduction of new marketing tools to increase sales, conversion, and general customer brand loyalty:
+						</p><ul>
+							<li>Incorporating of Google Tag Manager</li>
+							<li>Launch of Criteo retargeting campaigns</li>
+							<li>Integration with a leading CPA network</li>
+							<li>Site visitors interaction tracking and transferring data to CRM</li>
+							<li>Widening of the website operations and discount offers</li>
+							<li>Site visitors interaction tracking and transferring data to CRM</li>
+							<li>Integration with leading Russian shipping provider PickPoint</li>
+						</ul>">
 					<div class="portfolio-card">
 						<div class="portfolio-img">
-							<img src="./img/jbl.jpg" alt="">
+							<img class="port--image" src="./img/jbl.jpg" alt="">
 						</div>
 						<div class="portfolio-text">
 							<div class="portfolio-c-logo">
@@ -609,17 +710,18 @@
 							<p class="portfolio-c--descr">
 								Storefront, CRM and SAP integration, retargeting and marketplaces
 							</p>
+							<span class="read-more">Read more</span>	
 						</div>
 					</div>
 				</div>
 				<div class="portfolio-col col-sm-6 col-12 col-md-6 col-lg-4">
 					<div class="portfolio-card">
 						<div class="portfolio-img">
-							<img src="" alt="">
+							<img src="./img/ikea.jpg" alt="">
 						</div>
 						<div class="portfolio-text">
 							<div class="portfolio-c-logo">
-									<img src="./img/" alt="">
+									<img src="./img/Ikea_logo.svg" alt="">
 							</div>
 
 							<h4 class="portfolio-c--title">
@@ -637,10 +739,18 @@
 
 	<section class="contacts">
 			<div class="container">
-					<div class="after--stitle"><span>One more step</span> </div>
+					<div class="after--stitle" id="Contacts"><span>One more step</span> </div>
 					<h2 class="section--title">Contact us</h2>
-				<div class="row">
-							<div class="contact-row col-12 col-md-6 col-lg-4 col-sm-6">
+
+				</div>
+			<div class="container-fluid">
+				<div id="map" class="map">
+					
+				</div>
+			</div>
+			<div class="container slider-container">
+					<div class="siema contact-slider">
+							<div class="contact-row">
 								<div class="contacts--descr">
 								<div class="row--contry">
 									<div class="country--img">
@@ -670,7 +780,7 @@
 										</div>
 							</div></div>
 		
-							<div class="contact-row col-12 col-md-6 col-lg-4 col-sm-6">
+							<div class="contact-row">
 								<div class="contacts--descr">
 									<div class="row--contry">
 										<div class="country--img">
@@ -700,7 +810,7 @@
 											</div>
 								</div></div>
 
-								<div class="contact-row col-12 col-md-6 col-lg-4 col-sm-6">
+								<div class="contact-row">
 									<div class="contacts--descr">
 										<div class="row--contry">
 											<div class="country--img">
@@ -731,7 +841,7 @@
 									</div></div>
 
 
-									<div class="contact-row col-12 col-md-6 col-lg-4 col-sm-6">
+									<div class="contact-row">
 										<div class="contacts--descr">
 											<div class="row--contry">
 												<div class="country--img">
@@ -761,7 +871,7 @@
 													</div>
 										</div></div>
 
-										<div class="contact-row col-12 col-md-6 col-lg-4 col-sm-6">
+										<div class="contact-row">
 											<div class="contacts--descr">
 												<div class="row--contry">
 													<div class="country--img">
@@ -792,21 +902,35 @@
 											</div></div>
 
 						</div>
+						<button class="prev prev-map-1"><img src="./img/arrows/left.svg" alt=""></button>
+<button class="next next-map-1"><img src="./img/arrows/right.svg" alt=""></button>
 					</div>
 
 		</section>
 
-
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="footer-content">
+					<a href="" class="footter-logo">
+						<img src="./img/logo-isdk.svg" alt="">
+					</a>
+					<span class="footer-c">
+							© IsDk. 2019. All rights reserved.
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
-<script src="./js/sorting.js"></script>
+<script src="./js/map-script.js"></script>
 <script src="./js/tilt.jquery.min.js"></script>
+<script src="./js/siema.min.js"></script>
 <script src="./js/main.js"></script>
-
 </html>
