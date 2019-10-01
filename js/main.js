@@ -1,3 +1,4 @@
+$(document).ready(function() {
 var slider = new Siema({
   selector: '.siema',
   duration: 350,
@@ -48,7 +49,12 @@ $('.mobile--icon').on('click',function(){
 	var the_top = $(document).scrollTop();
 	if (the_top > 300) {
 		$('.header').addClass('fixed');
-		$('body').css('padding-top','72px')
+		if($(window).width() > 576){
+			$('body').css('padding-top','72px')
+		}
+		else{
+			$('body').css('padding-top','50px')
+		}
 	}
 	else {
 		$('.header').removeClass('fixed');
@@ -76,3 +82,19 @@ $('#nav-icon').on('click',function(){
   $('.mail-navigation').slideToggle();
   $('.mail-navigation').toggleClass('m-active');
 })
+
+
+// function EasyPeasyParallax() {
+// 	scrollPos = window.pageYOffset;
+// 	$('.hero').css(
+// 		'background-position', '50%'+(scrollPos*0.3)+"px"
+//     );
+//     $('.hero-content').css({
+// 		'opacity': 1-(scrollPos/500)
+// 	});
+// }
+// $(window).scroll(function() {
+// 	EasyPeasyParallax();
+// });
+new WOW().init();
+});

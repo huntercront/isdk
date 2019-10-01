@@ -47,8 +47,8 @@ $(document).ready(function () {
 									iconImageOffset: [-30, -50]
 								}),
 								myPlacemark4 = new ymaps.Placemark([56.97193289304613,24.128627500000007], {
-									hintContent: '<div class="hint-map">Riga</div>',
-									balloonContent: '<div class="row--contry"><div class="country--img"><img src="./img/contacts/latvia.svg" alt=""></div><h4 class="conuntry--name">Latvia</h4></div><div class="country-address"><div class="address-email"><img src="./img/contacts/email.svg" alt=""></div><a href="mailto:lv@isdk.pro" class="href">lv@isdk.pro</a></div><div class="country-phone"><div class="phone-img"><img src="./img/contacts/phone.svg" alt=""></div><a href="tel:+37127869927" class="href">+37127869927</a></div><div class="country-map"><div class="map-img"><img src="./img/contacts/map.svg" alt=""></div><p>Riga</p></div>'
+									hintContent: '<div class="hint-map">Riga, Latvia</div>',
+									balloonContent: '<div class="row--contry"><div class="country--img"><img src="./img/contacts/latvia.svg" alt=""></div><h4 class="conuntry--name">Baltic</h4></div><div class="country-address"><div class="address-email"><img src="./img/contacts/email.svg" alt=""></div><a href="mailto:lv@isdk.pro" class="href">lv@isdk.pro</a></div><div class="country-phone"><div class="phone-img"><img src="./img/contacts/phone.svg" alt=""></div><a href="tel:+37127869927" class="href">+37127869927</a></div><div class="country-map"><div class="map-img"><img src="./img/contacts/map.svg" alt=""></div><p>Riga, Latviac</p></div>'
 								}, {
 										iconLayout: 'default#image',
 										iconImageHref: '../img/contacts/latvia-map.svg',
