@@ -96,5 +96,9 @@ $('#nav-icon').on('click',function(){
 // $(window).scroll(function() {
 // 	EasyPeasyParallax();
 // });
-new WOW().init();
+// new WOW().init();
+$('.prime--cta').on('click',function(){
+	
+	$('#ModalLongTitle').html($(this).text())
+})
 });
